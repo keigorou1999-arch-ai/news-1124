@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>World news, Tuesday 24 November 2026</title>
+<style>
+  :root {
+    --paper: #f4efe3;
+    --ink: #161514;
+    --soft: #4a4640;
+    --line: #2a2825;
+    --land: #d9d3c4;
+    --coast: #8d877a;
+    --red: #9b1c2c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1024px; height: 1024px; background: var(--paper); overflow: hidden; }
+  body { font-family: Georgia, "Times New Roman", serif; color: var(--ink); position: relative; }
+  .page { position: absolute; left: 26px; top: 16px; width: 972px; height: 992px; }
+
+  /* masthead */
+  .top-rule { height: 6px; background: var(--ink); }
+  .strap { display: flex; justify-content: space-between; font: 700 13px/1 Helvetica, Arial, sans-serif;
+           letter-spacing: 2.2px; text-transform: uppercase; padding: 8px 2px 0; }
+  .strap .red { color: var(--red); }
+  .date { text-align: center; font-weight: 700; font-size: 66px; line-height: 1; letter-spacing: -1px; padding: 6px 0 9px; }
+  .double { border-top: 3px solid var(--ink); border-bottom: 1px solid var(--ink); height: 7px; }
+
+  /* lead story */
+  .lead { display: flex; height: 204px; padding-top: 11px; }
+  .lead-text { width: 610px; padding-right: 18px; }
+  .kicker { font: 700 13px/1 Helvetica, Arial, sans-serif; letter-spacing: 1.6px; text-transform: uppercase; color: var(--red); }
+  .num { display: inline-block; width: 28px; height: 28px; border-radius: 50%; background: var(--red); color: #fff;
+         font: 700 17px/28px Helvetica, Arial, sans-serif; text-align: center; letter-spacing: 0; margin-right: 8px; vertical-align: middle; }
+  .lead h1 { font-size: 46px; line-height: 1.02; letter-spacing: -0.8px; margin-top: 9px; }
+  .lead p { font-size: 18px; line-height: 1.24; margin-top: 10px; color: var(--soft); }
+  .lead-art { width: 362px; height: 176px; margin-top: 8px; }
+
+  /* map */
+  .map { height: 292px; border-top: 1px solid var(--ink); border-bottom: 3px solid var(--ink); position: relative; }
+  .map svg { display: block; }
+
+  /* cards */
+  .cards { display: grid; grid-template-columns: repeat(4, 1fr); }
+  .card { height: 177px; padding: 10px 12px 0 12px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); position: relative; }
+  .card:nth-child(4n) { border-right: 0; padding-right: 2px; }
+  .card:nth-child(4n+1) { padding-left: 2px; }
+  .card .kicker { font-size: 11.5px; letter-spacing: 1.1px; }
+  .card h2 { font-size: 23px; line-height: 1.07; letter-spacing: -0.3px; margin-top: 10px; }
+  .card p { font: 400 14px/1.22 Helvetica, Arial, sans-serif; color: var(--soft); margin-top: 7px; }
+  .card svg.icon { position: absolute; right: 12px; bottom: 9px; width: 56px; height: 56px; }
+  .card:nth-child(4n) svg.icon { right: 2px; }
+
+  .foot { display: flex; justify-content: space-between; font: 400 11.5px/1 Helvetica, Arial, sans-serif; color: var(--soft);
+          padding-top: 8px; letter-spacing: 0.3px; }
+  .ico { fill: none; stroke: var(--ink); stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+  .ico-red { fill: none; stroke: var(--red); stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="top-rule"></div>
+  <div class="strap"><span>The World in One Day</span><span class="red">Nine stories from around the world</span><span>Daily news summary</span></div>
+  <div class="date">Tuesday, 24 November 2026</div>
+  <div class="double"></div>
+
+  <!-- 1: lead -->
+  <div class="lead">
+    <div class="lead-text">
+      <div class="kicker"><span class="num">1</span>Middle East &middot; Strait of Hormuz</div>
+      <h1>Iran says three tankers ablaze after hitting mines</h1>
+      <p>Revolutionary Guards report blasts in the Strait of Hormuz. Tehran says no talks until Washington meets seven conditions.</p>
+    </div>
+    <svg class="lead-art" viewBox="0 0 362 176">
+      <!-- smoke -->
+      <path class="ico" style="stroke:#6d675c;stroke-width:3" d="M150 62c-14-10-4-26 10-24c2-14 24-16 30-4c14-8 30 4 22 18"/>
+      <path class="ico" style="stroke:#6d675c;stroke-width:3" d="M214 34c4-12 22-14 28-2c12-4 22 8 14 18"/>
+      <!-- flames -->
+      <path d="M150 104c-10-16 2-24 4-38c10 10 8 18 14 24c2-10 8-14 8-24c14 14 16 26 8 38z" fill="#9b1c2c"/>
+      <path d="M196 104c-6-12 2-18 4-28c8 8 6 14 12 20c0-8 6-10 6-16c8 8 10 16 4 24z" fill="#9b1c2c"/>
+      <!-- tanker -->
+      <path class="ico" style="stroke-width:3.4;fill:#f4efe3" d="M24 104h300l-16 34H50z"/>
+      <path class="ico" style="stroke-width:3" d="M262 104V74h40v30M270 74V58h22v16M281 58V44"/>
+      <path class="ico" style="stroke-width:2.4" d="M272 84h8M286 84h8M60 104V94h60v10M124 104V94h18M228 104V94h22v10"/>
+      <!-- far tankers -->
+      <path class="ico" style="stroke-width:2.2;stroke:#6d675c" d="M6 70h52l-4 9H12zM46 70v-8h8v8"/>
+      <path d="M24 70c-3-6 1-9 2-14c4 5 3 8 6 14z" fill="#9b1c2c"/>
+      <path class="ico" style="stroke-width:2.2;stroke:#6d675c" d="M74 56h46l-4 8H80zM108 56v-7h8v7"/>
+      <path d="M90 56c-3-5 1-8 2-12c3 4 3 7 5 12z" fill="#9b1c2c"/>
+      <!-- sea -->
+      <path class="ico" style="stroke-width:2.6" d="M2 146c12-8 24-8 36 0s24 8 36 0s24-8 36 0s24 8 36 0s24-8 36 0s24 8 36 0s24-8 36 0s24 8 36 0s24-8 36 0s24 8 34 2"/>
+      <!-- mine -->
+      <circle cx="318" cy="160" r="9" fill="#161514"/>
+      <path class="ico" style="stroke-width:3" d="M318 146v-4M306 152l-3-3M330 152l3-3M304 162h-4M332 162h4"/>
+      <text x="296" y="165" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2" fill="#161514">NAVAL MINE</text>
+    </svg>
+  </div>
+
+  <!-- map -->
+  <div class="map"><svg id="map" width="972" height="288" viewBox="0 0 972 288"></svg></div>
+
+  <!-- cards -->
+  <div class="cards">
+    <div class="card">
+      <div class="kicker"><span class="num">2</span>Asia &middot; Markets</div>
+      <h2>Asian stocks soar as Nvidia reinstates Huang</h2>
+      <p>Taipei +9%, Seoul +6.5%,<br>Tokyo +3.9%</p>
+      <svg class="icon" viewBox="0 0 48 48"><path class="ico" d="M6 6v36h38"/><path class="ico-red" d="M11 34l9-9l7 6l14-18M41 21v-8h-8"/></svg>
+    </div>
+    <div class="card">
+      <div class="kicker"><span class="num">3</span>Europe &middot; Security</div>
+      <h2>NATO sends radar plane to guard Poland</h2>
+      <p>After Russian missile<br>debris fell in Poland</p>
+      <svg class="icon" viewBox="0 0 48 48"><path class="ico" d="M4 30h30c6 0 10 2 10 5H12zM8 30l-4-10h5l7 10M22 35l-6 8h6l8-8"/><path class="ico-red" d="M12 17h20M22 17v13"/><ellipse class="ico-red" cx="22" cy="15" rx="13" ry="3.5"/></svg>
+    </div>
+    <div class="card">
+      <div class="kicker"><span class="num">4</span>United States &middot; Justice</div>
+      <h2>Trump orders faster federal executions</h2>
+      <p>Directive also widens<br>the death penalty</p>
+      <svg class="icon" viewBox="0 0 48 48"><path class="ico" d="M24 6v34M12 42h24M8 12h32M8 12l-5 14h10zM40 12l-5 14h10z"/><path class="ico" d="M3 26c1 4 9 4 10 0M35 26c1 4 9 4 10 0"/></svg>
+    </div>
+    <div class="card">
+      <div class="kicker"><span class="num">5</span>Caribbean &middot; Health</div>
+      <h2>WHO chief visits Cuba's strained hospitals</h2>
+      <p>Tedros cites fuel, power<br>and supply shortages</p>
+      <svg class="icon" viewBox="0 0 48 48"><rect class="ico" x="5" y="5" width="38" height="38" rx="3"/><path class="ico-red" style="stroke-width:6;stroke-linecap:butt" d="M24 13v22M13 24h22"/></svg>
+    </div>
+    <div class="card">
+      <div class="kicker"><span class="num">6</span>Africa &middot; Climate</div>
+      <h2>South African cities tighten water limits</h2>
+      <p>Forecasters warn of one of<br>the strongest El Ni&ntilde;os</p>
+      <svg class="icon" viewBox="0 0 48 48"><path class="ico" d="M4 16h22c6 0 10 4 10 10v2h-9v-2c0-1-1-2-2-2H4zM14 16V8M8 8h12"/><path class="ico-red" d="M31.500 33c-3 4-4.500 6-4.500 8a4.500 4.500 0 0 0 9 0c0-2-1.500-4-4.500-8z"/></svg>
+    </div>
+    <div class="card">
+      <div class="kicker"><span class="num">7</span>Pacific &middot; Diplomacy</div>
+      <h2>Solomon Islands to end China security pact</h2>
+      <p>Australia treaty to be<br>signed in Canberra</p>
+      <svg class="icon" viewBox="0 0 48 48"><path class="ico" d="M10 4h20l8 8v32H10zM30 4v8h8M16 20h16M16 27h16M16 34h9"/><path class="ico-red" d="M5 43L43 7"/></svg>
+    </div>
+    <div class="card">
+      <div class="kicker"><span class="num">8</span>World &middot; Technology</div>
+      <h2>UN chief urges AI rules within a year</h2>
+      <p>Guterres at AI safety<br>summit in Barbados</p>
+      <svg class="icon" viewBox="0 0 48 48"><rect class="ico" x="11" y="11" width="26" height="26" rx="2"/><path class="ico" d="M17 11V4M24 11V4M31 11V4M17 44v-7M24 44v-7M31 44v-7M4 17h7M4 24h7M4 31h7M37 17h7M37 24h7M37 31h7"/><text x="24" y="29.500" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#9b1c2c">AI</text></svg>
+    </div>
+    <div class="card">
+      <div class="kicker"><span class="num">9</span>World &middot; Sport</div>
+      <h2>FIFA names Women's World Cup hosts</h2>
+      <p>2031: US-led four nations<br>2035: United Kingdom</p>
+      <svg class="icon" viewBox="0 0 48 48"><circle class="ico" cx="24" cy="24" r="20"/><path class="ico-red" d="M24 15l8.500 6l-3.200 10h-10.600l-3.200-10z"/><path class="ico" d="M24 15V5M32.500 21l9.500-3M29.300 31l6 8M18.700 31l-6 8M15.500 21l-9.500-3"/></svg>
+    </div>
+  </div>
+
+  <div class="foot">
+    <span>Numbers on the map show where each story happened.</span>
+    <span>Sources: AP &middot; Al Jazeera &middot; Anadolu &middot; ABC Australia &middot; Africanews &middot; NBC News &middot; RT&Eacute; &middot; FIFA</span>
+  </div>
+</div>
+
+<script>
+// World map: hand-simplified coastlines as [longitude, latitude] points, drawn in a plain
+// equirectangular projection. Only the outline matters here: it locates the numbered stories.
+const LAND = [
+  // North America
+  [[-168,66],[-156,71],[-130,70],[-110,68],[-95,72],[-82,73],[-78,62],[-64,60],[-56,52],[-66,45],[-70,42],[-76,35],[-81,31],[-80,25],[-84,30],[-90,29],[-97,26],[-97,20],[-91,18],[-87,21],[-88,16],[-83,10],[-78,8],[-85,11],[-94,16],[-105,20],[-110,24],[-115,31],[-122,37],[-124,47],[-135,58],[-150,60],[-160,56],[-165,61]],
+  // Greenland
+  [[-45,60],[-22,70],[-20,80],[-45,83],[-68,78],[-55,68]],
+  // Cuba
+  [[-85,22],[-80,23],[-74,20],[-78,20]],
+  // South America
+  [[-78,8],[-72,12],[-62,10],[-52,5],[-50,0],[-36,-6],[-39,-15],[-48,-26],[-57,-37],[-65,-42],[-68,-53],[-74,-50],[-72,-35],[-70,-18],[-80,-5],[-78,2]],
+  // Europe and Asia
+  [[-9,37],[-9,43],[-1,44],[-4,48],[2,51],[8,54],[8,57],[10,55],[13,54],[20,55],[24,58],[29,60],[22,60],[21,64],[24,66],[18,62],[17,58],[13,56],[11,59],[5,59],[5,62],[13,67],[25,71],[40,67],[60,69],[75,72],[100,77],[130,72],[160,70],[180,67],[178,62],[162,58],[156,51],[155,59],[142,58],[135,54],[140,47],[130,42],[129,36],[126,34],[126,38],[122,39],[121,31],[119,25],[110,21],[108,16],[109,11],[105,9],[100,13],[101,5],[104,1],[99,8],[97,16],[91,22],[86,20],[80,13],[77,8],[73,18],[70,22],[66,25],[57,25],[52,28],[48,30],[51,25],[56,24],[59,22],[52,16],[44,12],[42,16],[38,22],[34,28],[36,36],[28,36],[26,40],[23,37],[20,40],[19,42],[14,45],[12,44],[18,40],[16,38],[14,41],[10,44],[8,44],[3,43],[0,39],[-5,36]],
+  // Africa
+  [[-6,35],[10,37],[11,33],[20,32],[32,31],[34,28],[37,21],[43,12],[51,11],[40,-3],[40,-15],[35,-24],[31,-30],[20,-35],[17,-29],[12,-17],[13,-5],[9,3],[5,6],[-8,4],[-15,10],[-17,15],[-16,22],[-10,29]],
+  // Australia
+  [[114,-22],[122,-17],[130,-12],[137,-12],[137,-16],[142,-11],[146,-19],[153,-27],[150,-37],[144,-39],[136,-35],[130,-32],[116,-35],[113,-26]],
+  // Britain, Ireland
+  [[-5,50],[1,51],[0,54],[-3,58],[-6,57],[-3,54],[-5,52]],
+  [[-10,52],[-6,52],[-6,55],[-10,54]],
+  // Japan
+  [[130,32],[136,34],[141,36],[142,41],[145,44],[141,45],[139,38],[133,35]],
+  // Taiwan
+  [[120,23],[121,25],[122,24],[121,22]],
+  // Madagascar
+  [[44,-16],[50,-15],[47,-25],[44,-23]],
+  // New Zealand
+  [[173,-35],[178,-38],[171,-45],[167,-46],[172,-41]],
+  // Sumatra, Borneo, Java, New Guinea, Philippines, Sri Lanka
+  [[95,5],[104,-3],[106,-6],[100,-1]],
+  [[109,1],[117,6],[118,1],[114,-4],[110,-2]],
+  [[106,-6],[114,-8],[108,-8]],
+  [[131,-1],[141,-3],[150,-6],[147,-10],[138,-8]],
+  [[120,18],[122,17],[126,7],[122,10]],
+  [[80,9],[82,7],[80,6]],
+  // Iceland
+  [[-24,65],[-14,66],[-15,64],[-22,63]]
+];
+
+// Where each numbered story happened.
+const PINS = [
+  { n: 1, lon: 56.500, lat: 26.500, label: 'Strait of Hormuz', dx: 16, dy: 5, anchor: 'start' },
+  { n: 2, lon: 121, lat: 24, label: 'Taipei', dx: 16, dy: 5, anchor: 'start' },
+  { n: 3, lon: 21, lat: 52, label: 'Poland', dx: 16, dy: 2, anchor: 'start' },
+  { n: 4, lon: -77, lat: 39, label: 'Washington', dx: -16, dy: 2, anchor: 'end' },
+  { n: 5, lon: -82, lat: 23, label: 'Havana', dx: -16, dy: 5, anchor: 'end' },
+  { n: 6, lon: 26, lat: -29, label: 'South Africa', dx: 16, dy: 5, anchor: 'start' },
+  { n: 7, lon: 160, lat: -9, label: 'Solomon Is.', dx: 0, dy: 28, anchor: 'middle' },
+  { n: 8, lon: -59.500, lat: 13, label: 'Barbados', dx: 16, dy: 5, anchor: 'start' },
+  { n: 9, lon: 8.500, lat: 47, label: 'Zurich', dx: -16, dy: 8, anchor: 'end' }
+];
+
+const SCALE = 2.450;          // pixels per degree
+const LON0 = -172, LAT0 = 76;  // top-left corner of the map
+const OFFSET_X = 38;
+const px = (lon) => OFFSET_X + (lon - LON0) * SCALE;
+const py = (lat) => 4 + (LAT0 - lat) * SCALE;
+
+const svg = document.getElementById('map');
+const NS = 'http://www.w3.org/2000/svg';
+function add(tag, attrs, text) {
+  const el = document.createElementNS(NS, tag);
+  for (const key in attrs) el.setAttribute(key, attrs[key]);
+  if (text !== undefined) el.textContent = text;
+  svg.appendChild(el);
+  return el;
+}
+
+// graticule: equator and two tropics, thin dotted
+for (const lat of [23.400, 0, -23.400]) {
+  add('line', { x1: 0, x2: 972, y1: py(lat), y2: py(lat), stroke: '#b9b2a2', 'stroke-width': 1, 'stroke-dasharray': '2 5' });
+}
+
+for (const shape of LAND) {
+  const d = shape.map(([lon, lat], i) => (i ? 'L' : 'M') + px(lon).toFixed(1) + ' ' + py(lat).toFixed(1)).join('') + 'Z';
+  add('path', { d, fill: '#d9d3c4', stroke: '#8d877a', 'stroke-width': 1.3, 'stroke-linejoin': 'round' });
+}
+
+for (const pin of PINS) {
+  const x = px(pin.lon), y = py(pin.lat);
+  add('text', { x: x + pin.dx, y: y + pin.dy, 'text-anchor': pin.anchor, 'font-family': 'Helvetica, Arial, sans-serif',
+                'font-size': 13.500, 'font-weight': 700, fill: '#161514', stroke: '#f4efe3', 'stroke-width': 3.500,
+                'paint-order': 'stroke', 'stroke-linejoin': 'round' }, pin.label);
+  add('circle', { cx: x, cy: y, r: 12.500, fill: '#9b1c2c', stroke: '#f4efe3', 'stroke-width': 2 });
+  add('text', { x, y: y + 5.500, 'text-anchor': 'middle', 'font-family': 'Helvetica, Arial, sans-serif', 'font-size': 16,
+                'font-weight': 700, fill: '#ffffff' }, String(pin.n));
+}
+</script>
+</body>
+</html>
