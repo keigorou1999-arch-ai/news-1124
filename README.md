@@ -12,15 +12,15 @@ The picture is drawn by hand as HTML and SVG in `source/page.html` (no generated
 
 | # | Story | Region · field | Reported by |
 |---|-------|----------------|-------------|
-| 1 | Iran says three tankers ablaze after hitting mines in the Strait of Hormuz | Middle East · conflict | Al Jazeera, Anadolu |
-| 2 | Asian stocks soar as Nvidia reinstates Huang | Asia · markets | AP, CNBC |
-| 3 | NATO sends radar plane to guard Poland | Europe · security | NBC News, Kyiv Post |
+| 1 | Iran: no talks until US meets seven conditions | Middle East · Iran–US standoff | Al Jazeera, Middle East Eye, Gulf News |
+| 2 | Asian stocks soar as Nvidia reinstates Huang | Asia · markets | AP, AFP, CNBC |
+| 3 | Russian strike on Zaporizhzhia kills two | Europe · Ukraine war | Kyiv Independent, France 24 |
 | 4 | Trump orders faster federal executions | United States · justice | RTÉ, Al Jazeera |
-| 5 | WHO chief visits Cuba's strained hospitals | Caribbean · health | Al Jazeera, Reuters |
+| 5 | Mexico to try drug lord 'El Chapo Isidro' at home | Latin America · crime | Al Jazeera, Reuters |
 | 6 | South African cities tighten water limits | Africa · climate | Africanews, Bloomberg |
 | 7 | Solomon Islands to end China security pact | Pacific · diplomacy | ABC Australia, Solomon Star |
-| 8 | UN chief urges AI rules within a year | World · technology | Al Jazeera, France 24 |
-| 9 | FIFA names Women's World Cup hosts for 2031 and 2035 | World · sport | FIFA, Anadolu |
+| 8 | China readies first flight with foreign astronaut | Asia · space | Al Jazeera, France 24 |
+| 9 | South Korea scrambles jets at Russian planes | Asia · security | Yonhap, Korea Times, Anadolu |
 
 ## Run it
 
