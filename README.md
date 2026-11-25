@@ -15,12 +15,12 @@ The picture is drawn by hand as HTML and SVG in `source/page.html` (no generated
 | 1 | Iran: no talks until US meets seven conditions | Middle East · Iran–US standoff | Al Jazeera, Middle East Eye, Gulf News |
 | 2 | Asian stocks soar as Nvidia reinstates Huang | Asia · markets | AP, AFP, CNBC |
 | 3 | Russian strike on Zaporizhzhia kills two | Europe · Ukraine war | Kyiv Independent, France 24 |
-| 4 | Trump orders faster federal executions | United States · justice | RTÉ, Al Jazeera |
-| 5 | Mexico to try drug lord 'El Chapo Isidro' at home | Latin America · crime | Al Jazeera, Reuters |
+| 4 | US jury convicts Huawei of stealing secrets | United States · trial | AP, France 24, Al Jazeera |
+| 5 | Gunmen hold 25 hostage in Colombia | Latin America · crime | AFP, France 24, Al Jazeera |
 | 6 | South African cities tighten water limits | Africa · climate | Africanews, Bloomberg |
 | 7 | Solomon Islands to end China security pact | Pacific · diplomacy | ABC Australia, Solomon Star |
 | 8 | China readies first flight with foreign astronaut | Asia · space | Al Jazeera, France 24 |
-| 9 | South Korea scrambles jets at Russian planes | Asia · security | Yonhap, Korea Times, Anadolu |
+| 9 | Court hands Africa Cup title back to Senegal | Africa · football | Sky Sports, France 24, Morocco World News |
 
 ## Run it
 
